@@ -1,0 +1,7 @@
+Console.WriteLine("Escreva um número inteiro:");
+int numero1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Escreva outro número inteiro:");
+int numero2 = Convert.ToInt32(Console.ReadLine());
+
+int soma = numero1 + numero2;
+Console.WriteLine($"A soma de {numero1} e {numero2} é igual a {soma}.");
