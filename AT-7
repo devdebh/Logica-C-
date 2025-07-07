@@ -1,0 +1,17 @@
+Console.WriteLine("Digite o valor de uma distância em metros: ");
+double metros = Convert.ToDouble(Console.ReadLine());
+
+double quilometros = metros / 1000;
+double hectometros = metros / 100;
+double decametros = metros / 10;
+double decimetros = metros * 10;
+double centimetros = metros * 100;
+double milimetros = metros * 1000;
+
+Console.WriteLine($"A distância de {metros} metros corresponde a:");
+Console.WriteLine($"{quilometros} km");
+Console.WriteLine($"{hectometros} hm");
+Console.WriteLine($"{decametros} dam");
+Console.WriteLine($"{decimetros} dm");
+Console.WriteLine($"{centimetros} cm");
+Console.WriteLine($"{milimetros} mm");
