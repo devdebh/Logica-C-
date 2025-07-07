@@ -1,0 +1,6 @@
+Console.WriteLine("Digite um número inteiro:");
+int numero = Convert.ToInt32(Console.ReadLine());
+int antecessor = numero - 1;
+int sucessor = numero + 1;
+
+Console.WriteLine($"O antecessor de {numero} é igual a {antecessor} e seu sucessor é igual a {sucessor}");
