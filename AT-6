@@ -1,0 +1,6 @@
+Console.WriteLine("Digite um número: ");
+double numero = Convert.ToDouble(Console.ReadLine());
+double dobro = numero * 2;
+double terco = numero / 3;
+
+Console.WriteLine($"O dobro de {numero} é igual a {dobro} e seu terço é igual a {terco:F2}.");
