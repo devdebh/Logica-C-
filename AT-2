@@ -1,0 +1,8 @@
+Console.WriteLine("Qual é o seu nome?");
+string? funcionario = Console.ReadLine();
+Console.WriteLine("Em que mês estamos?");
+string? mes = Console.ReadLine();
+Console.WriteLine("Quanto recebeu em " + mes + "?");
+double salario = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine($"Nome do funcionário: {funcionario}");
+Console.WriteLine($"Recebem no mês de {mes} o salário de R$ {salario:F2} referente às suas horas trabalhadas.");
